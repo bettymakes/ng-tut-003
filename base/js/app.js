@@ -14,7 +14,11 @@ for (i = 0; i < sections.length; i++) {
 
 // Calculates the position of each section
 positionCalculator = function(){
-  console.log('hero');
+  var pageTop = window.pageYOffset;
+  var pageBottom = pageTop + window.innerHeight;
+  for (i = 0; i < sections.length; i++){
+    var section = sections[i];
+  }
 };
 
 // Triggers positionCalculator function
